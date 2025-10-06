@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE agenda SYSTEM "agenda.dtd">
 
-<agenda>
-    <contacto numero='1'>
-	<nombre>Javier</nombre>
-	<numero>222-333-444</numero>
-	<contacto:direccion>Calle Marques de Larios</contacto:direccion>
+<agenda xmlns:calle="http://www.w3.org/2001/XMLSchema-instance">
+    <contacto numero="1">
+		<nombre>Javier</nombre>
+		<numero>222-333-444</numero>
+		<calle:direccion>Calle Marques de Larios</calle:direccion>
      </contacto>
-    <contacto numero='2'>
-	<nombre>Álvaro</nombre>
-	<numero>111-222-333</numero>
-	<contacto:direccion>Avenida Andalucía</contacto:direccion>
+    <contacto numero="2">
+		<nombre>Álvaro</nombre>
+		<numero>111-222-333</numero>
+		<direccion>Sevilla</direccion>
     </contacto>
 </agenda>
